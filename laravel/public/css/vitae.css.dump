@@ -1,0 +1,69 @@
+@charset "gb2312";
+/* CSS Document */
+body{ background:#f4f4f4; }
+.vitae-line { background:#f4f4f4; width:100%; height:1px; margin:0; clear:both; }
+
+.vitae-from { display:block;}
+.vitae-from label { display:block; float:left; width:65px; height:38px; padding-right:8px; font-size:14px; line-height:38px; text-align:right;} 
+.vitae-from input { display:block; float:left; background:#fcfcfc; border-color:#ccc; width:213px; height:36px; margin-right:15px; font-size:14px; line-height:36px; } 
+.vitae-from textarea { display:block; background:#fcfcfc; border-color:#ccc; width:908px; height:88px; margin:0 auto; font-size:14px; line-height:26px; } 
+.divselect { width:225px; height:38px; margin-right:0;}
+.divselect cite{  height: 36px; font-size:14px; line-height:36px; border-color:#ccc; background:#fcfcfc url(../images/icon.png) no-repeat 200px -184px; }
+.divselect input { width:213px; }
+.divselect ul{ border-color:#ccc; width:223px; background:#fcfcfc; top:38px; }
+.divselect ul li { height:30px; line-height:30px; font-size:14px; }
+.divselect ul li a{ height:30px; }
+
+
+/* 编辑简历 */
+.user-vitae { background:#fff; width:1000px; height:100%; padding-bottom:100px; margin:32px auto 100px; }
+.user-vitae h4 { height:40px; padding-left:30px; margin:20px auto; font-size:18px; line-height:40px; font-weight: bold;}
+
+.vitae-bar { background:#f9f9f9; border-bottom:1px solid #f4f4f4; width:100%; height:49px; }
+.vitae-bar li { display:inline; float:left; width:125px; height:49px; font-size:14px; text-align:center; position:relative; }
+.vitae-bar li a { display:block; position:absolute; left:0; top:0; border-top:3px solid #f4f4f4; width:100%; height:49px; line-height:49px; color:#333; }
+.vitae-bar li.on a,
+.vitae-bar li a:hover,
+.vitae-bar li:hover a { background:#fff; border-top-color:#ffb900; color:#333; }
+
+.vitae-title { margin-top:20px; font-size:20px; font-weight:bold; line-height:30px; text-align:center; }
+
+/* 基本信息 */
+.vitae-box01 { width:100%; }
+.jbxx-left { display:inline; float:left; border-right:1px solid #f4f4f4; width: 749px; height:100%;  }
+.jbxx-right { display:inline; float:right; width: 250px; padding-top:35px; }
+.jbxx-right .myphoto { background:#fcfcfc; border:1px solid #ccc; width: 145px; height:145px; margin:0 auto; overflow:hidden;  }
+.jbxx-right .up-btn { display:block; background:#ffca17; border:1px solid #df8918;
+	width:87px; height:24px; margin:10px auto 0; border-radius:3px;
+	color:#b35c07; font-size:14px; text-align:center; cursor:pointer; }
+.vitae-box01 .row1 , 
+.vitae-box01 .row2 ,
+.vitae-box01 .row3 ,
+.vitae-box01 .row4 { height:38px; padding:25px 0 25px 0; }
+
+.vitae-box01 .row1 .col-1 label ,
+.vitae-box01 .row2 .col-1 label ,
+.vitae-box01 .row3 .col-1 label ,
+.vitae-box01 .row4 .col-1 label { width:100px; }
+
+.vitae-box01 .row2 label { width:130px; }
+.vitae-box01 .row2 input { width:337px; }
+
+.vitae-box01 .row4 .col-2 { width:20px; padding-right:15px; text-align:center; }
+.vitae-box01 .row4 input { width:155px; margin-right:8px; }
+
+.vitae-box01 .row5 { height:100%; padding:25px 0; }
+.vitae-box01 .row5 label { float:none; width:916px; height:24px; margin:0 auto 15px; line-height:24px; text-align:left; }
+
+.vitae-box01 .row6 { height:100%; padding:20px 0; }
+.vitae-box01 .row6 label { float:none; width:916px; margin:0 auto; text-align:left; }
+.vitae-box01 .row6 textarea { width:916px; margin:0 auto; }
+.vitae-box01 .row6 p { width:906px; margin:0 auto; color:#737373; font-size:14px; text-align:left; }
+
+.vitae-box01 .btn-box .btn {  display:block; margin:20px auto;}
+
+
+
+
+
+

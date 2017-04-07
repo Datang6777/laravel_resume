@@ -1,0 +1,199 @@
+@charset "gb2312";
+/* CSS Document */
+body{ background:#f4f4f4; }
+.vitae-line { background:#f4f4f4; width:100%; height:1px; margin:0; clear:both; }
+
+.vitae-from { display:block;}
+.vitae-from label { display:block; float:left; width:65px; height:38px; padding-right:8px; font-size:14px; line-height:38px; text-align:right;}
+.vitae-from input { display:block; float:left; background:#fcfcfc; border-color:#ccc; width:213px; height:36px; margin-right:0; font-size:14px; line-height:36px; }
+.vitae-from textarea { display:block; background:#fcfcfc; border-color:#ccc; width:908px; height:88px; margin:0 auto; font-size:14px; line-height:26px; }
+.divselect { width:225px; height:38px; margin-right:0;}
+.divselect cite{  height: 36px; font-size:14px; line-height:36px; border-color:#ccc; background:#fcfcfc url(../images/icon.png) no-repeat 200px -234px; }
+.divselect input { width:213px; }
+.divselect ul{ border-color:#ccc; width:223px; background:#fcfcfc; top:38px; }
+.divselect ul li { height:30px; line-height:30px; font-size:14px; }
+.divselect ul li a{ height:30px; }
+
+
+/* 编辑简历 */
+.user-vitae { background:#fff; width:1000px; height:100%; padding-bottom:100px; margin:32px auto 100px; }
+.user-vitae h4 { height:40px; padding-left:30px; margin:20px auto; font-size:18px; line-height:40px; font-weight: bold;}
+
+.vitae-bar { background:#f9f9f9; border-bottom:1px solid #f4f4f4; width:100%; height:49px; }
+.vitae-bar li { display:inline; float:left; width:125px; height:49px; font-size:14px; text-align:center; position:relative; }
+.vitae-bar li a { display:block; position:absolute; left:0; top:0; border-top:3px solid #f4f4f4; width:100%; height:49px; line-height:49px; color:#333; }
+.vitae-bar li.on a,
+.vitae-bar li a:hover,
+.vitae-bar li:hover a { background:#fff; border-top-color:#ffb900; color:#333; }
+
+.vitae-title { margin:30px auto 0; padding-bottom:10px; font-size:20px; font-weight:500; line-height:30px; text-align:center; }
+
+/* 基本信息 */
+.vitae-box01 { width:100%; }
+.vitae-box .jbxx-left { display:inline; float:left; border-right:1px solid #f4f4f4; width: 749px; height:100%;  }
+.vitae-box .jbxx-right { display:inline; float:right; width: 250px; padding-top:35px; }
+.vitae-box .jbxx-right .myphoto { background:#fcfcfc; border:1px solid #ccc; width: 145px; height:145px; margin:0 auto; overflow:hidden;  }
+.vitae-box .jbxx-right .up-btn { display:block; background:#ffca17; border:1px solid #df8918;
+	width:87px; height:24px; margin:10px auto 0; border-radius:3px;
+	color:#b35c07; font-size:14px; text-align:center; cursor:pointer; }
+/*  
+.row1---每行1个input;.row1a 第二种宽度
+.row2---每行2个input;.row2a 第二种宽度
+.row3---每行3个input;
+.row4---时间;
+.row5---文本域;.row5a 第二种高度
+.row6---照片;
+.row-btn---按钮;.row-btna 第二种尺寸
+ */
+.vitae-box .row1 ,
+.vitae-box .row2 ,
+.vitae-box .row3 ,
+.vitae-box .row4 ,
+.vitae-box .row5 ,
+.vitae-box .row6 { padding:25px 0; position : relative; }
+
+.vitae-box .row1 ,
+.vitae-box .row2 ,
+.vitae-box .row3 ,
+.vitae-box .row4 { height:38px; }
+
+.vitae-box .row5 ,
+.vitae-box .row6 { height:auto; }
+
+/* 右侧点评 */
+.vitae-box .view { position:absolute; top:25px; right:-160px; width:140px; color:#b90404; }
+.vitae-box .view p { color:#b90404; font-size:14px; line-height:20px; }
+
+.vitae-box .vitae-btn {  display:block; width:138px; height:33px; margin:0 auto;
+	background:#f6f6f6; border:1px solid #d9d9d9; border-radius:3px;
+	color:#000; font-size:14px; line-height:33px; text-align:center; cursor:pointer;
+}
+.vitae-box .vitae-btn:hover { background:#ffca17; border-color:#c59902; color:#000; }
+
+.vitae-box .col-1 ,
+.vitae-box .row3 .col-2  ,
+.vitae-box .row4 .col-2 { display:inline; float:left; }
+.vitae-box .row2 .col-2 ,
+.vitae-box .row3 .col-3 { display:inline; float:right; margin-right:40px; }
+
+.vitae-box .col-1 label { width:132px; }
+
+.vitae-box01 .row3 .col-1 input { width:180px; }
+.vitae-box01 .row3 .col-2 label { width:80px; }
+
+.vitae-box01 .row2 .col-1 input { width:310px; }
+.vitae-box01 .row2 .col-1 .divselect { width:320px; }
+.vitae-box01 .row2 .col-1 .divselect cite{ background:#fcfcfc url(../images/icon.png) no-repeat 290px -234px; }
+.vitae-box01 .row2 .col-1 .divselect input { width:318px; }
+.vitae-box01 .row2 .col-1 .divselect ul{ width:318px; }
+.vitae-box01 .row2 .col-2 label { width:110px; }
+.vitae-box01 .row2 .col-2 input { width:328px; }
+.vitae-box01 .row2 .col-2 .divselect { width:340px; }
+.vitae-box01 .row2 .col-2 .divselect cite{ background:#fcfcfc url(../images/icon.png) no-repeat 320px -234px; }
+.vitae-box01 .row2 .col-2 .divselect input { width:338px; }
+.vitae-box01 .row2 .col-2 .divselect ul{ width:338px; }
+
+.vitae-box01 .row2a .col-1 input { width:258px; }
+.vitae-box01 .row2a .col-2 label { width:170px; }
+
+.vitae-box .row1 label { width:132px; }
+.vitae-box .row1 input { width:450px; }
+.vitae-box .row1a label { width:210px; }
+.vitae-box .row1a input { width:372px; }
+
+.vitae-box01 .row4 .col-2 label{ width: 20px; padding-right: 15px; text-align: center; }
+.vitae-box01 .row4 input { width:155px; margin-right:8px; }
+
+.vitae-box .row5 label { float:none; width:920px; height:24px; margin:0 auto 15px; line-height:24px; text-align:left; }
+.vitae-box .row5a textarea { height:120px; }
+
+.vitae-box .row6 label { float:none; width:920px; height:24px; margin:0 auto 15px; line-height:24px; text-align:left; }
+.vitae-box .row6 .morephoto { background:#fcfcfc; border:1px solid #ccc; width:323px; height:200px; margin-left:40px; border-radius:3px; }
+.vitae-box .row6 p { width:325px; height:44px; margin-left:40px; color:#737373; font-size:14px; line-height:44px; text-align:center; }
+.vitae-box .row6 .vitae-btn { float:left; margin-left:130px; margin-top:10px; }
+
+.vitae-box .row-btn { width:344px; height:35px; padding:25px 0; margin:0 auto; }
+.vitae-box .row-btn .vitae-btn { float:left; margin:0 16px; }
+
+.vitae-box .row-btna { padding:25px 0; margin:0 auto; }
+.vitae-box .row-btna .vitae-btn { float:left; width:170px; height:38px; margin-left:110px; font-size:18px; line-height:38px; }
+
+
+/* 编辑简历 宽度2 */
+.vitae-box02 { width:840px; margin:0; border-right:1px solid #f4f4f4; }
+.vitae-box02 .jbxx-left {  width: 600px; }
+.vitae-box02 .jbxx-right { width: 238px; }
+
+.vitae-box02 .row2 .col-2 ,
+.vitae-box02 .row3 .col-3 { margin-right:20px; }
+
+.vitae-box02 .row3 .col-1 input { width:148px; }
+.vitae-box02 .row3 .col-2 label { width:76px; }
+.vitae-box02 .row3 .col-2 input { width:173px; }
+.vitae-box02 .row3 .col-2 .divselect { width:185px; }
+.vitae-box02 .row3 .col-2 .divselect cite{ background:#fcfcfc url(../images/icon.png) no-repeat 165px -234px; }
+.vitae-box02 .row3 .col-2 .divselect input { width:183px; }
+.vitae-box02 .row3 .col-2 .divselect ul{ width:183px; }
+.vitae-box02 .row3 .col-3 input { width:165px; }
+
+.vitae-box02 .row2 .col-1 input { width:258px; }
+.vitae-box02 .row2 .col-1 .divselect { width:260px; }
+.vitae-box02 .row2 .col-1 .divselect cite{ background:#fcfcfc url(../images/icon.png) no-repeat 240px -234px; }
+.vitae-box02 .row2 .col-1 .divselect input { width:258px; }
+.vitae-box02 .row2 .col-1 .divselect ul{ width:258px; }
+.vitae-box02 .row2 .col-2 label { width:120px; }
+.vitae-box02 .row2 .col-2 input { width:268px; }
+.vitae-box02 .row2 .col-2 .divselect { width:270px; }
+.vitae-box02 .row2 .col-2 .divselect cite{ background:#fcfcfc url(../images/icon.png) no-repeat 250px -234px; }
+.vitae-box02 .row2 .col-2 .divselect input { width:278px; }
+.vitae-box02 .row2 .col-2 .divselect ul{ width:278px; }
+.vitae-box02 .row2a .col-1 input { width:198px; }
+.vitae-box02 .row2a .col-2 label { width:170px; }
+
+.vitae-box02 .row4 .col-2 label{ width: 20px; padding-right: 15px; text-align: center; }
+.vitae-box02 .row4 input { width:135px; margin-right:8px; }
+.vitae-box02 .row5 label { width:800px; margin-left:40px; }
+.vitae-box02 .row5 textarea {  width:768px; margin-left:40px; }
+.vitae-box02 .row5a textarea {  width:768px; margin-left:40px;}
+
+.vitae-box02 .row6 label { width:780px; }
+
+
+/* 简历详情 */
+.vitae-box li ,
+.vitae-box01 .row1 { font-size:14px; line-height:38px; }
+
+.vitae-box01 .row3 .col-1 { width:332px; }
+.vitae-box01 .row3 .col-2 { width:313px; }
+.vitae-box01 .row3 .col-3 { width:298px; }
+.vitae-box01 .row2 .col-1 { width:462px; }
+.vitae-box01 .row2 .col-1 { width:462px; }
+.vitae-box01 .row2 .col-2 { width:458px; }
+.vitae-box01 .row2a .col-1 { width:410px; }
+.vitae-box01 .row2a .col-2 { width:518px; }
+.vitae-box01 .row1 { width:1000px; }
+
+.vitae-box01 .row5 .textarea { width:920px; margin:0 auto; font-size:14px; }
+
+
+
+/* 点评简历 */
+#view-box { position: fixed; right: 5px; bottom: 5px; z-index: 2;
+	background:#fff; width:400px;
+	opacity:0.95; filter:Alpha(opacity=95);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+#showview-box{
+	background:#ffca17; width:400px; height:40px;
+	color:#b35c07; font-size:16px; line-height:40px; text-align:center; cursor:pointer;
+}
+#view-box .cont { display:none; width: 380px; height:100%; padding:10px 0; margin:0 auto; }
+#view-box .cont input { display: block; width: 368px; height:36px; margin-bottom: 8px; font-size:14px; line-height:36px;}
+#view-box .view-btn { width: 320px; height:40px; padding:10px 0; margin:0 auto; }
+#view-box .view-btn .btn { width: 140px; height:38px; background:#ffca17; border: 1px solid #df8918; border-radius:3px;
+	color:#b35c07; font-size:16px; line-height:38px; text-align:center; cursor:pointer;
+}
+#view-box .view-btn #closeview-box { background:#f6f6f6; border:1px solid #d9d9d9; color:#777; }
+/*查看点评 */
+#view-box .cont li { margin-bottom: 8px; }
+#view-box .cont li span { font-weight:bold; }
